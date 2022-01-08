@@ -1,6 +1,6 @@
-x=input("inter the number")
+x=input("Enter the number")
 x1=x[::-1]
 if x==x[::-1]:
-    print('yes')
+    print('yes palindrome')
 else:
-    print("no")
+    print("not palindrome")
